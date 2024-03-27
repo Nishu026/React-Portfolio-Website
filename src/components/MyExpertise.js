@@ -2,10 +2,11 @@ import React from 'react';
 import '../App.css';
 import '../style/Expertise.css';
 import ProfilePhoto from '../assets/images/My_Profile_Photo-removebg-preview.png';
+import { HashLink as Link } from 'react-router-hash-link';
 const MyExpertise = () => {
     return (
         <>
-            <div className='expertise-container'>
+            <div className='expertise-container' id='expertise'>
                 <h1>My Expertise</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis incidunt voluptates assumenda quibusdam libero?</p>
                 <div className='cards'>

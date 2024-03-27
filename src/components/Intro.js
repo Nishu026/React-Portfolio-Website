@@ -7,7 +7,7 @@ import { Button } from '@mui/material';
 const Intro = () => {
   return (
     <>
-    <div className='intro-container'>
+    <div className='intro-container' id='intro'>
       <div className='intro'>
         <h1>I am Nishigandha Patil</h1>
         <p><span style={{ color: '#FFB400' }}>MERN-Stack</span> Developer</p>

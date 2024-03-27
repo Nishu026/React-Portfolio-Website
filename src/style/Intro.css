@@ -1,7 +1,7 @@
 .intro-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 24px;
@@ -11,7 +11,7 @@
     position: relative;
     left: 24%;
     width: 970px;
-    height: auto;
+    height: 650px;
   }
   
   .intro {

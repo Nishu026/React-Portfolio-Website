@@ -7,6 +7,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import { LinearProgress } from '@mui/material';
 import {Button} from '@mui/material';
 import ProfilePhoto from '../assets/images/My_Profile_Photo-removebg-preview.png';
+import Divider from '@mui/material/Divider';
 
 const Sidebar = () => {
 
@@ -26,10 +27,12 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="sidebar">
+    <aside className="sidebar">
       <div className="sidebar-section">
         <div className="profile-picture">
+          <figure>
           <img src={ProfilePhoto} style={{width: 200, height: 200, borderRadius: 100, border: '3px solid black'}} alt="logo" />
+          </figure>
         </div>
         <h1>Nishigandha Patil</h1>
         <h2 className="job-title">Frontend Developer</h2>
@@ -40,7 +43,7 @@ const Sidebar = () => {
           <span className="social-icon"><LinkedInIcon/></span>
           <span className="social-icon"><GitHubIcon/></span>
         </div>
-        <hr/>
+        <Divider/>
 
         {/* <div className="rating">
           <span className="rating-icon">★</span>
@@ -67,7 +70,7 @@ const Sidebar = () => {
           <span className="info-value">Palghar-East,MH</span>
         </div>
       </div>
-      <hr style={{backgroundColor: '#FFB400'}}/>
+      <Divider/>
 
       <div className="sidebar-section">
         <h3 className="section-title">Languages</h3>
@@ -93,7 +96,7 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
-      <hr/>
+      <Divider/>
 
       <div className="sidebar-section">
         <h3 className="section-title">Skills</h3>
@@ -128,7 +131,7 @@ const Sidebar = () => {
           </div>
         </div>
       </div>
-      <hr/>
+      <Divider/>
 
       <div className="sidebar-section">
         <h3 className="section-title">Extra Skills</h3>
@@ -141,7 +144,7 @@ const Sidebar = () => {
         <Button variant="contained"  onClick={handleDownload} >Download CV</Button>
       </div>   
 
-    </div>
+    </aside>
   );
 };
 
