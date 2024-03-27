@@ -1,0 +1,9 @@
+.TableContainer{
+    position: absolute;
+    left: 25%;
+    width: 970px;
+    height: 1000px;
+    background-color:  #E4E6EB;
+    padding-bottom: 50px;
+
+}

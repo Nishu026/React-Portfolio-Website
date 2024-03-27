@@ -36,3 +36,195 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* sidebar css */
+
+.sidebar {
+  width: 300px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.sidebar-section {
+  margin-bottom: 30px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.job-title {
+  color: #a1a2a5;
+}
+.social-icon {
+  color: #FFB400;
+  font-size: 24px;
+  margin: 0 2px;
+  border-radius: 50%;
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.info-label {
+  font-weight: bold;
+  background-color: #FFB400;
+}
+
+.skill-item {
+  margin-bottom: 10px;
+}
+
+.skill-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background-color: #FFB400;
+}
+
+.extra-skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.extra-skills-list li {
+  margin-bottom: 5px;
+}
+.download-cv {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #FFB400;
+  width: 220px;
+  height: 20px;
+}
+.section-title {
+  display: flex;
+  margin-bottom: 20px;
+  font-size: 20px;
+  align-items: start;
+  
+}
+
+
+/* Intro css */
+/* .intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #FFB400;
+}
+img{
+  width: 383px;
+  height: 420px;
+
+} */
+
+/* My Expertise */
+
+/* .expertise{
+  position: relative;
+  margin-top: 10px;
+  left: 25%;
+  max-width: 600px;
+  text-align: center;
+}
+ */
+
+/* .card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  justify-content: center;
+  background-color: white;
+  margin: 0;
+  
+}
+
+.card1{
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+} */
+
+/* .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  position: relative;
+  left: 23%;
+} */
+
+/* .card1 {
+  width: calc(20% - 20px); 
+  height: 300px;/* 33.33% width for each card with some margin */
+  /* margin-bottom: 20px; */
+  /* border: 2px solid black; */
+  /* Add additional styling as needed */
+/* } */ 
+
+
+/* .navbar-container {
+  display: flex;
+  float: right;
+  width: 200px;
+ height: 1351px;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #FFB400;
+  color: #000;
+  position: relative;
+  right: 10px;
+} */
+
+
+
+/* .education-container{
+  position: relative;
+  left: 25%;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  justify-content: center;
+  background-color: white;
+
+} */

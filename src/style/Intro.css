@@ -1,0 +1,45 @@
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    justify-content: center;
+    background-color: white;
+    margin: 0;
+    position: relative;
+    left: 24%;
+    width: 970px;
+    height: auto;
+  }
+  
+  .intro {
+    position: relative;
+    margin-top: 10px;
+    left: 5%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .profile-photo {
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .intro-container {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .intro {
+      width: 50%;
+      text-align: left;
+    }
+  
+    .profile-photo {
+      width: 50%;
+      text-align: right;
+    }
+  }
+  
