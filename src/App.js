@@ -8,6 +8,8 @@ import Sidebar from './components/Sidebar';
 import Contact from './components/Contact';
 import {BrowserRouter, Routes} from 'react-router-dom';
 import Work from './components/Work';
+import Footer from './components/Footer';
+import Recommendation from './components/Recommendation';
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
      <Education/>
      <Work/>
      <Contact/>
+     <Recommendation/>
+     <Footer/>
     
    
      </BrowserRouter>
