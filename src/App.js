@@ -6,14 +6,15 @@ import MyExpertise from './components/MyExpertise';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Contact from './components/Contact';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import WorkHistory from './components/WorkHistory';
+import {BrowserRouter, Routes} from 'react-router-dom';
+import Work from './components/Work';
 
 
 function App() {
   return (
-    <BrowserRouter>
+  
     <div className="App">
+        <BrowserRouter>
       <Routes>
         {/* <Route path="/contact" element={<Contact/>} />
         <Route path="/education" element={<Education/>} />
@@ -32,11 +33,12 @@ function App() {
       <Navbar/>
      <MyExpertise/>
      <Education/>
-     <WorkHistory/>
-     {/* <Contact/> */}
+     <Work/>
+     <Contact/>
     
-     </div>
+   
      </BrowserRouter>
+       </div>
   );
 }
 
