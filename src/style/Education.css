@@ -1,0 +1,21 @@
+.education-container{
+    position: absolute;
+    left: 24%;
+    width: 970px;
+    height: 600px;
+    background-color:  #E4E6EB;
+    padding-bottom: 50px;
+    margin-top: 0%;
+}
+
+.education-details-card{
+    position: relative;
+    left:0;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+    
+  

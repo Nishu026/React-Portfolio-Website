@@ -1,0 +1,155 @@
+/* General styles */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 970px;
+    justify-content: space-between;
+    position: relative;
+    left: 24%;
+    top:5129px;
+    height: 100%;
+  }
+  
+  /* Form section styles */
+  /* .form-title h2 {
+    margin:0;
+    padding: 0;
+  }
+
+  .title2 h2 {
+    margin:0;
+    padding: 0;
+    position: absolute;
+    right: 20.5%;
+  } */
+
+  /* .contact-form{
+   margin: 0;
+   position: absolute;
+   left: 0;
+   top: 10%;
+   background-color: white;
+  } */
+
+  .form{
+    grid-area: form;
+  }
+  .info1{
+    grid-area: info1;
+  
+  }
+  .info2{
+    grid-area: info2;
+  }
+  .info3{
+    grid-area: info3;
+  } 
+
+  .contact{
+    padding: 10px;
+    background-color: white;
+    /* box-shadow: 0 5px 35px black; */
+    margin-top: 10px;
+  }
+  
+.box{
+  position: relative;
+  left: 0;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  grid-template-rows: 2fr 2fr 2fr ;
+  grid-template-areas: 
+  "form info1"
+  "form info2"
+  "form info3";
+  grid-gap:20px;
+  width: 100%;
+ 
+}
+.form-box{
+  display: flex;
+  position: relative;
+  width: 100%;
+
+}
+.form-box .row100{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+ .input-box{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+  width: 100%;
+ 
+}
+.form-box .row100 .input-box{
+  width: 100%;
+}
+.label{
+  font-size: 18px;
+  text-align: start;
+  padding: 15px 0;
+}
+input,textarea{
+  outline: none;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 5px;
+  height: 50px;
+  
+}
+.btn{
+  display: flex;
+  width: 159px;
+  height: 35px;
+  background-color: #FFB400;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: 600;
+  position: relative;
+  left: 10px;
+  top: 0px;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+.contact-map{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 50px;
+
+}
+  /* Contact section styles
+  .contact-section {
+    flex-basis: 50%;
+    padding-left: 20px;
+  }
+  
+  /* Map section styles */
+  /* .map-section {
+    flex-basis: 100%;
+    margin-top: 20px;
+  }
+  
+  Responsive styles
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .form-section,
+    .contact-section {
+      flex-basis: 100%;
+      padding: 0;
+    }
+  
+    .contact-section {
+      margin-top: 20px;
+    }
+  } */ 
