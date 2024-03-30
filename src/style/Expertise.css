@@ -9,15 +9,15 @@
     margin: 0;
     position: relative;
     top: 50%;
-    left: 24%;
+    left: 25.5%;
     width: 970px;
-    height: 900px;
+    height: 100vh;
     background-color:  #E4E6EB;;
    
     /* background-color: red; */
 }
 
-.expertise-container h1{
+.expertise-title {
     text-align: center;
     margin-top: 10%;
 }

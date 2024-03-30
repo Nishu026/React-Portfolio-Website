@@ -9,9 +9,9 @@
     background-color: white;
     margin: 0;
     position: relative;
-    left: 24%;
+    left: 25.5%;
     width: 970px;
-    height: 650px;
+    height: 610px;
   }
   
   .intro {
@@ -23,7 +23,8 @@
   }
   
   .profile-photo {
-    margin-top: 20px;
+   position: relative;
+   left: 4%;
   }
   
   @media (min-width: 768px) {

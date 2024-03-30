@@ -5,9 +5,10 @@
     width: 970px;
     justify-content: space-between;
     position: relative;
-    left: 24%;
-    top:5129px;
+    left: 25.5%;
+    top:2300px;
     height: 100%;
+    
   }
   
   /* Form section styles */
@@ -48,7 +49,8 @@
   .contact{
     padding: 10px;
     background-color: white;
-    /* box-shadow: 0 5px 35px black; */
+
+    box-shadow: 0 5px 10px black;
     margin-top: 10px;
   }
   

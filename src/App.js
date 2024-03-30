@@ -10,6 +10,7 @@ import {BrowserRouter, Routes} from 'react-router-dom';
 import Work from './components/Work';
 import Footer from './components/Footer';
 import Recommendation from './components/Recommendation';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
      <MyExpertise/>
      <Education/>
      <Work/>
+     <Projects/>
      <Contact/>
      <Recommendation/>
      <Footer/>

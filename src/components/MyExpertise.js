@@ -1,49 +1,58 @@
 import React from 'react';
 import '../App.css';
 import '../style/Expertise.css';
-import ProfilePhoto from '../assets/images/My_Profile_Photo-removebg-preview.png';
 import { HashLink as Link } from 'react-router-hash-link';
+import ProfilePhoto from '../assets/images/My_Profile_Photo-removebg-preview.png';
+import { LiaLaptopCodeSolid } from "react-icons/lia";
+import { GrLanguage } from "react-icons/gr";
+import { GrServer } from "react-icons/gr";
+import { FaDatabase } from "react-icons/fa";
+import { GrDeploy } from "react-icons/gr";
+import { BsPersonWorkspace } from "react-icons/bs";
+
 const MyExpertise = () => {
     return (
         <>
             <div className='expertise-container' id='expertise'>
+                <div className='expertise-title'>
                 <h1>My Expertise</h1>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis incidunt voluptates assumenda quibusdam libero?</p>
+                </div>
                 <div className='cards'>
                     <div className="card-items">
-                        <img src={ProfilePhoto} style={{ width: 100, height: 100, borderRadius: 100, border: '3px solid black' }} alt="card1"></img>
+                    <LiaLaptopCodeSolid style={{width:68, height:68, color: '#FFB400'}}/>
                         <h3>Web Development</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas porro non mollitia, deserunt saepe cupiditate corrupti debitis culpa omnis velit quod tempora </p>
+                        <p>HTML, CSS, JavaScript, React.js , Redux </p>
                     </div>
 
                     <div className="card-items">
-                        <img src={ProfilePhoto} style={{ width: 100, height: 100, borderRadius: 100, border: '3px solid black' }} alt="card1"></img>
-                        <h3>Langugae Skills</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas porro non mollitia, deserunt saepe cupiditate corrupti debitis culpa omnis velit quod tempora </p>
+                        <GrLanguage style={{width:68, height:68, color: '#FFB400'}}/>
+                        <h3>Language Skills</h3>
+                        <p>HTML,CSS,JavaScript, Python</p>
                     </div>
 
                     <div className="card-items">
-                        <img src={ProfilePhoto} style={{ width: 100, height: 100, borderRadius: 100, border: '3px solid black' }} alt="card1"></img>
+                        <GrServer style={{width:68, height:68, color: '#FFB400'}}/>
                         <h3>Backend Developer</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas porro non mollitia, deserunt saepe cupiditate corrupti debitis culpa omnis velit quod tempora </p>
+                        <p>Node.js, Express,Django, Flask</p>
                     </div>
 
                     <div className="card-items">
-                        <img src={ProfilePhoto} style={{ width: 100, height: 100, borderRadius: 100, border: '3px solid black' }} alt="card1"></img>
+                    <FaDatabase style={{width:68, height:68, color: '#FFB400'}}/>
                         <h3>Database Management</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas porro non mollitia, deserunt saepe cupiditate corrupti debitis culpa omnis velit quod tempora </p>
+                        <p>MongoDB, Mongoose </p>
                     </div>
 
                     <div className="card-items">
-                        <img src={ProfilePhoto} style={{ width: 100, height: 100, borderRadius: 100, border: '3px solid black' }} alt="card1"></img>
+                        <GrDeploy style={{width:68, height:68, color: '#FFB400'}}/>
                         <h3>Depolyment Operations</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas porro non mollitia, deserunt saepe cupiditate corrupti debitis culpa omnis velit quod tempora </p>
+                        <p>Docker, AWS EC2 Deployment with Linux</p>
                     </div>
 
                     <div className="card-items">
-                        <img src={ProfilePhoto} style={{ width: 100, height: 100, borderRadius: 100, border: '3px solid black' }} alt="card1"></img>
+                        <BsPersonWorkspace style={{width:68, height:68, color: '#FFB400'}}/>
                         <h3>Currently Learning</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas porro non mollitia, deserunt saepe cupiditate corrupti debitis culpa omnis velit quod tempora </p>
+                        <p>Redis, Cacendra, Kafka, Bootstrap CSS, Tailwind CSS,PyTorch,etc</p>
                     </div>
 
                 </div>
@@ -52,7 +61,7 @@ const MyExpertise = () => {
     )
 }
 
-export default MyExpertise
+export default MyExpertise;
 
 
 

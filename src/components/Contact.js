@@ -1,6 +1,7 @@
 import React from 'react';
 import '../style/Contact.css';
 import ChatIcon from '@mui/icons-material/Chat';
+import { Button } from '@mui/material';
 
 const App = () => {
   return (
@@ -35,7 +36,7 @@ const App = () => {
               </div>
             </div>
           </form>
-          <button className='btn' type="submit">SEND MESSAGE</button>
+          <Button variant="contained" style={{ backgroundColor: '#FFB400', color: 'black', position: 'relative',left: '10px' }}>SEND MESSAGE</Button>
         </div>
 
         <div className='contact info1'>

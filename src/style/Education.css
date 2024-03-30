@@ -1,21 +1,37 @@
 .education-container{
     position: absolute;
-    left: 24%;
+    left: 25.5%;
     width: 970px;
-    height: 600px;
-    background-color:  #E4E6EB;
+    height: 100vh;
     padding-bottom: 50px;
     margin-top: 0%;
 }
 
 .education-details-card{
+    display: flex;
     position: relative;
     left:0;
     background-color: white;
     display: flex;
     margin-top: 10px;
     margin-bottom: 5px;
+    justify-content: space-around;
 }
+.education-title{
+    text-align: center;
+}
+.education-table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    }
+    th, td {
+        padding: 30px;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    th {
+        background-color:white;
+    }
 
-    
   
