@@ -7,11 +7,12 @@
     font-size: 24px;
     justify-content: center;
     background-color: white;
-    margin: 0;
+    /* margin: 0; */
     position: relative;
     left: 25.5%;
     width: 970px;
     height: 610px;
+    /* background: url('../assets/images/background.png') no-repeat; */
   }
   
   .intro {

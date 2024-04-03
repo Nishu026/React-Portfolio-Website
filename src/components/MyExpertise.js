@@ -1,8 +1,6 @@
 import React from 'react';
 import '../App.css';
 import '../style/Expertise.css';
-import { HashLink as Link } from 'react-router-hash-link';
-import ProfilePhoto from '../assets/images/My_Profile_Photo-removebg-preview.png';
 import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { GrLanguage } from "react-icons/gr";
 import { GrServer } from "react-icons/gr";
@@ -13,6 +11,7 @@ import { BsPersonWorkspace } from "react-icons/bs";
 const MyExpertise = () => {
     return (
         <>
+        <secition>
             <div className='expertise-container' id='expertise'>
                 <div className='expertise-title'>
                 <h1>My Expertise</h1>
@@ -57,6 +56,7 @@ const MyExpertise = () => {
 
                 </div>
             </div>
+            </secition>
         </>
     )
 }

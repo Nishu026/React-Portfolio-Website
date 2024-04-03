@@ -19,12 +19,13 @@ align-items: center;
     flex-direction: column;
     padding: 40px;
     align-items: center;
-    color: gray;
-    
+    justify-content: center;
+    color: gray;    
 }
 .sidenav-items:hover{
     background-color: #FFB400;
     color: black;
-    transition: .5s ease;
+    border-radius: 50%;
 }
+
 

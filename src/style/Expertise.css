@@ -31,7 +31,7 @@
     background-color:  #E4E6EB;
 }
 .card-items{
-    flex-basis: 23%;
+    flex-basis: 26%;
     background-color: white;
     text-align: center;
     margin: 10px 0px;
@@ -48,7 +48,7 @@
     padding: 2px;
 }
 .card-items:hover {
-    background-color: rgb(198, 197, 197);
+    background-color: rgb(216, 213, 213);
 }
 
 @media only screen and (min-width:200px) and (max-width:750px) {

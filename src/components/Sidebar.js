@@ -35,7 +35,7 @@ const Sidebar = () => {
       <div className="sidebar-section">
         <div className="profile-picture">
           <figure>
-          <img src={ProfilePhoto} style={{width: 200, height: 200, borderRadius: 100, border: '3px solid black'}} alt="logo" />
+          <img src={ProfilePhoto} style={{width: 200, height: 200, borderRadius: 100, objectFit: 'cover'}} alt="logo" />
           </figure>
         </div>
         <div className="info-content">
@@ -49,15 +49,6 @@ const Sidebar = () => {
           <a href='https://www.instagram.com/nishupatil26?igsh=MTg4ZHo5dDVrY25rOQ==' target='_blank' rel="noreferrer"><span className="social-icon"><InstagramIcon/></span></a>
         </div>
         <Divider/>
-
-        {/* <div className="rating">
-          <span className="rating-icon">★</span>
-          <span className="rating-icon">★</span>
-          <span className="rating-icon">★</span>
-          <span className="rating-icon">★</span>
-          <span className="rating-icon">★</span>
-          <span className="rating-icon">★</span>
-        </div> */}
         <div className="info-item">
           <span className="info-label" >Age:</span>
           <span className="info-value">23</span>
@@ -146,14 +137,17 @@ const Sidebar = () => {
       <div className="sidebar-section">
         <h3 className="section-title">Extra Skills</h3>
         <ul className="extra-skills-list">
-          <li><FaBootstrap style={{color: '#FFB400',width:'20px',height:'20px'}}/>Bootstrap, MUI</li>
+          <li> <FaBootstrap style={{color: '#FFB400',width:'20px',height:'20px',marginRight:'5px'}}/>Bootstrap, MUI</li>
           <li> <BiSolidFileCss style={{color: '#FFB400',width:'20px',height:'20px',marginRight:'5px'}}/>LLM, Sass CSS, Less</li>
-          <li> <GiBrain style={{color: '#FFB400',width:'20px',height:'20px'}}/>AI/ML/DL/NLP</li>
-          <li> <FaGitAlt  style={{color: '#FFB400',width:'20px',height:'20px'}}/>GIT Knowledge</li>
+          <li> <GiBrain style={{color: '#FFB400',width:'20px',height:'20px',marginRight:'5px'}}/>AI/ML/DL/NLP</li>
+          <li> <FaGitAlt  style={{color: '#FFB400',width:'20px',height:'20px',marginRight:'5px'}}/>GIT Knowledge</li>
         </ul>
-        <Button variant="contained" style={{backgroundColor: '#FFB400',color:'black',width:'100%',marginTop:'10px'}} onClick={handleDownload} >Download CV <PiDownloadSimpleFill style={{marginLeft:'10px',color:'black',width:'20px',height:'20px' }}/></Button>
-      </div>   
 
+        <Divider/>
+
+
+        <Button variant="contained" style={{backgroundColor: '#FFB400',color:'black',width:'100%',marginTop:'10px'}} onClick={handleDownload} >Download CV <PiDownloadSimpleFill style={{marginLeft:'10px',color:'black',width:'20px',height:'20px'}}/></Button>
+      </div>   
     </aside>
   );
 };

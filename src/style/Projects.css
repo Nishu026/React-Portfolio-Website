@@ -1,7 +1,7 @@
 .project-gallery {
     margin: 0;
     position: relative;
-    top: 1150px;
+    top: 1500px;
     left: 25.5%;
     width: 970px;
     height: 900px;
@@ -20,7 +20,7 @@
   }
   
   .category {
-    background-color: #f2f2f2;
+    background-color:#E4E6EB;
     color: #333;
     padding: 8px 16px;
     margin: 0 5px;
@@ -42,14 +42,14 @@
     width: 300px;
     margin: 10px;
     overflow: hidden;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     background-color: white;
   }
   
   .project-item img {
     width: 100%;
-    height: 200px;
+    height:200px;
+    object-fit: cover;
     transition: transform 0.3s ease;
   }
   

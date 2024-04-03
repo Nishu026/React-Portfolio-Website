@@ -1,95 +1,66 @@
-.recommendation-container{
-    margin: 0;
-    position: relative;
-    top: 500px;
-    left: 25.5%;
-    width: 970px;
-    height: 100vh;
-    background-color:  #E4E6EB;
-    border: 2px solid red;
+.slider-container {
+  position: absolute;
+  left: 25.5%;
+  width: 970px;
+  height: 100vh;
+  margin-top: 2%;
+  top: 4030px;
+  margin: 0 auto;
 }
 
-.rating{
+.slider {
   display: flex;
-  justify-content: space-evenly;
-  align-items: start;
-  padding: 5px;
-  color:#FFB400 ;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.slider-card {
+  flex: 0 0 30%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.slider-title{
+  text-align: center;
+}
+.rating {
+  color: #ffc107;
   font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.profile{
+.profile {
   display: flex;
-  align-items: start;
-  margin: 0;
-  padding: 0;
+  align-items: center;
+ 
 }
 
-.feedback p{
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.slider-controls {
   display: flex;
- text-align: start;
- margin: 0;
-  padding: 0;
+  justify-content: center;
+  margin-top: 20px;
 }
 
+.slider-controls button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-
-/* .carousel {
-    display: flex;
-    flex-wrap: wrap;
-    width: 970px;
-
-    position: relative;
-    left: 24%;
-    top: 150px;
-    border: 2px solid red;
-
-    height: 100%;;
-  }
-  
-  .carousel-slide {
-    margin-bottom: 20px;
-  }
-  
-  .slide {
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 5px;
-  }
-  
-  .rating {
-    color: #ffc107;
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .profile {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .profile img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-  }
-  
-  .carousel-controls {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .carousel-controls button {
-    margin: 0 10px;
-    padding: 8px 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  h2{
-    text-align: center;
-  } */
+.slider-controls button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

@@ -49,7 +49,6 @@
   .contact{
     padding: 10px;
     background-color: white;
-
     box-shadow: 0 5px 10px black;
     margin-top: 10px;
   }
@@ -91,17 +90,23 @@
   width: 100%;
 }
 .label{
-  font-size: 18px;
   text-align: start;
-  padding: 15px 0;
+  padding: 10px 0;
 }
-input,textarea{
+input{
   outline: none;
   background-color: #f2f2f2;
   border: none;
   padding: 5px;
-  height: 50px;
+  height: 40px;
   
+}
+textarea{
+  outline: none;
+  background-color: #f2f2f2;
+  border: none;
+  padding: 5px;
+  height: 20vh;
 }
 .btn{
   display: flex;
@@ -120,12 +125,25 @@ input,textarea{
   text-align: center;
   padding: 10px;
 }
+.contact-info-item {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+
+.contact-info-label {
+  padding: 2px;
+}
+.contact-info1{
+  text-align: center;
+}
 .contact-map{
   display: flex;
   flex-direction: column;
   width: 100%;
   padding-top: 50px;
-
 }
   /* Contact section styles
   .contact-section {
